@@ -1,0 +1,91 @@
+body{
+box-sizing: border-box;
+padding: 0;
+margin:0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFE9E0;
+    padding: 0 2em;
+}
+.logo h3{
+    background:linear-gradient(96.22deg, #FF4D00 11.8%, #2549D3 56.64%, #FF5106 65.6%, #FC5005 85.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+.navlinks{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+.navlinks li{
+    list-style: none;
+    text-decoration: none;
+}
+.navlinks li a{
+    text-decoration: none;
+     font-family: 'Space Grotesk', sans-serif;
+     color: #000;
+}
+.navlinks li a.home{
+    color: #FC5005;
+}
+.navlinks li a:hover{
+    color: #FC5005;
+}
+button.cart{
+    background:#FF4D00;
+    color:#fff;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:none;
+    border-radius: 5px;
+    
+}
+span.cart{
+font-family: 'Space Grotesk', sans-serif;
+}
+span.three{
+    color: black;
+    background: white;
+    padding:5px;
+    border-radius: 50%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+.hero-text p{
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 50px;
+    width: 67%;
+}
+span.home{
+    color: #FC5005;
+}
+p.small{
+    font-family:'Space Grotesk', sans-serif;
+    font-size:20px;
+    width:50%;
+    margin-top: ;
+}
+button.order{
+    padding: 10px;
+    background: #FC5005;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
